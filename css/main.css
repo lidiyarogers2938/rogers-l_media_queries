@@ -1,0 +1,79 @@
+/* 
+
+    CSS Guide
+
+    1. General Styles
+    2. Grid
+    3. Header
+    4. Main Hero Image
+    5. Features
+    6. Footer
+
+*/
+
+/* 1. ---General Styles--- */
+
+
+.hidden {
+    display: none;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    background-color: #fff;
+    flex-direction: row; 
+
+}
+
+
+
+#box1 {
+    background-color: rgb(212, 127, 180);
+    color: white;
+    text-align: center;
+    /* width: 400px; */
+    height: 500px;
+    display: flex;
+    flex-direction: row; 
+
+}
+
+#box2 {
+    background-color: rgb(211, 43, 43);
+    color: white;
+    text-align: center;
+    /* width: 400px; */
+    height: 500px;
+    display: flex;
+    flex-direction: row; 
+
+}
+
+
+#box3{
+    background-color: rgb(85, 59, 177);
+    color: white;
+    text-align: center;
+    /* width: 400px; */
+    height: 500px;
+
+}
+
+#box4{
+    background-color: rgb(70, 57, 215);
+    color: white;
+    text-align: center;
+    /* width: 400px; */
+    height: 500px;
+}
+
+@media only screen and (min-width: 641px) {
+    body {
+      background-color: rgb(140, 148, 150);
+    }
+
+    .hidden {
+        display: block;
+    }
+  }
